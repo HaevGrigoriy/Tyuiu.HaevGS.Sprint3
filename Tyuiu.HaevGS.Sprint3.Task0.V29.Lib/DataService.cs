@@ -11,7 +11,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task0.V29.Lib
 
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries + (Math.Pow(value, 2 * startValue) + (1 / startValue + 1)) * Math.Cos(value);
+                sumSeries = sumSeries + (Math.Pow(value, 2 * sumSeries) + (1 / sumSeries + 1)) * Math.Cos(value);
             }
             return Math.Round(sumSeries, 3);
         }
