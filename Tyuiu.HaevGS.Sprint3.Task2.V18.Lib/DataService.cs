@@ -1,5 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
-using tyuiu.cources.programming.interfaces.Sprint3;
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.HaevGS.Sprint3.Task2.V18.Lib
 {
@@ -7,13 +6,13 @@ namespace Tyuiu.HaevGS.Sprint3.Task2.V18.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            int sm = 0;
+            double sm = 0;
             do
             {
-                sm += (int)(Math.Cos(value) + Math.Pow(startValue / 8, 3));
+                sm += (Math.Cos(value) + Math.Pow(startValue / 8, 3));
                 startValue++;
             } while (startValue <= stopValue);
-            return sm;
+            return Math.Round(sm, 3);
         }
     }
 }
