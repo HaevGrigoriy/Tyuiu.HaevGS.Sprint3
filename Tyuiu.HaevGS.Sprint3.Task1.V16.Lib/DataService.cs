@@ -6,7 +6,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task1.V16.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double ms = 1;
+            double ms = 0;
             while(startValue <= stopValue)
             {
                 ms += Math.Pow(value, 2) * Math.Sin(ms) + 1;
