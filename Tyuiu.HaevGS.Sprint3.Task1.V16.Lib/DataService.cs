@@ -9,7 +9,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task1.V16.Lib
             double ms = 1;
             while(startValue <= stopValue)
             {
-                ms += value * value * Math.Sin(ms) + 1;
+                ms += (value * value) * Math.Sin(ms) + 1;
                 startValue++;
             }
             return Math.Round(ms, 3);
