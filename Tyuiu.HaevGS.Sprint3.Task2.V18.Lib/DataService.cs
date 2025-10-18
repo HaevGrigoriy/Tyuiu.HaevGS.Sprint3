@@ -6,13 +6,14 @@ namespace Tyuiu.HaevGS.Sprint3.Task2.V18.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double sm = 1.0;
+            double res = 1.0;
+            double i = startValue;
             do
             {
-                sm *= (Math.Cos(value) + Math.Pow((sm / 8), 3));
-                startValue++;
-            } while (startValue <= stopValue);
-            return Math.Round(sm, 3);
+                res *= (Math.Cos(value) + Math.Pow((i / 8), 3));
+                i++;
+            } while (i <= stopValue);
+            return Math.Round(res, 3);
         }
     }
 }
