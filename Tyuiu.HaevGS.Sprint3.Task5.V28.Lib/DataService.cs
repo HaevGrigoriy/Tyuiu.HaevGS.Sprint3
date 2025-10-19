@@ -12,7 +12,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task5.V28.Lib
             { 
                 for (j = startValue2; j <= stopValue2; j++)
                 {
-                    ms += Math.Pow(startValue1, x) / Math.Sin(startValue1); 
+                    ms += (Math.Pow(startValue2, x) / Math.Sin(startValue2)); 
                 }
             }
             return Math.Round(ms, 3);
