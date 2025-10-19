@@ -14,7 +14,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task7.V18.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = (((2*x - 3) / Math.Cos(x) + x) + 5);
+                Math.Round(y = (((2*x - 3) / Math.Cos(x) + x) + 5), 2);
                 valueArray[count] = y;
                 count++;
 
