@@ -1,0 +1,21 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
+
+namespace Tyuiu.HaevGS.Sprint3.Task5.V28.Lib
+{
+    public class DataService : ISprint3Task5V18
+    {
+        public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
+        {
+            double ms = 0;
+            int i, j;
+            for (i = startValue1; i <= stopValue1; i++)
+            { 
+                for (j = startValue2; j <= stopValue2; j++)
+                {
+                    ms += Math.Pow(startValue1, x) / Math.Sin(startValue1); 
+                }
+            }
+            return Math.Round(ms, 3);
+        }
+    }
+}
