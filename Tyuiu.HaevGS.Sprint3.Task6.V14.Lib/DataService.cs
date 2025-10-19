@@ -8,13 +8,14 @@ namespace Tyuiu.HaevGS.Sprint3.Task6.V14.Lib
         {
             int x;
             int sum = 0;
+            
             for (x = startValue; x <= stopValue; x++)
             {
                 for (int d = 5; d <= x; d++)
                 {
                     if (x % d == 0)
                     {
-                        sum += d;
+                        sum += 1;
                     }       
                 }
             }
