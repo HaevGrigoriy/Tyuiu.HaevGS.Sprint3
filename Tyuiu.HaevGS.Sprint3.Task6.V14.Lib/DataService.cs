@@ -11,7 +11,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task6.V14.Lib
             
             for (x = startValue; x <= stopValue; x++)
             {
-                for (int d = 5; d <= x; d++)
+                for (int d = 6; d <= x; d++)
                 {
                     if (x % d == 0)
                     {
