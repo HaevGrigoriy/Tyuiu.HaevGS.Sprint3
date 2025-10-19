@@ -11,9 +11,13 @@ namespace Tyuiu.HaevGS.Sprint3.Task4.V13.Lib
             {
                 if (x == 0)
                 {
-                    continue;
+                    break;
                 }
-                res = res + (Math.Sin(x) / Math.Cos(x));
+                else
+                {
+                    res = res + (Math.Sin(x) / Math.Cos(x));
+                }
+                    
             }
             return Math.Round(res, 3);
         }
