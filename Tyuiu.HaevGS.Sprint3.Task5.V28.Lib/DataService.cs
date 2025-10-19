@@ -2,7 +2,7 @@
 
 namespace Tyuiu.HaevGS.Sprint3.Task5.V28.Lib
 {
-    public class DataService : ISprint3Task5V18
+    public class DataService : ISprint3Task5V28
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
