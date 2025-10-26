@@ -6,7 +6,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task7.V18.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] a = new double[10];
+            double[] a = new double[11];
             int i = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
