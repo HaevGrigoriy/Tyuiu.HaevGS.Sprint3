@@ -10,7 +10,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task7.V18.Lib
             int i = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (Math.Sin(x) + 1 == 0) a[i] = 0;
+                if (Math.Cos(x) + 1 == 0) a[i] = 0;
                 else a[i] = Math.Round((2 * x - 3) / (Math.Cos(x) + 5), 2);
                 i++;
             }
