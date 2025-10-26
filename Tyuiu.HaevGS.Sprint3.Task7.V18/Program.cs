@@ -15,7 +15,7 @@ Console.WriteLine("+---------+---------+");
 
 for (int i = 0; i <= len-1; i++)
 {
-    Console.WriteLine("===", startValue, valueArray[i]);
+    Console.WriteLine("===");
     startValue++;
 }
 Console.ReadKey();
