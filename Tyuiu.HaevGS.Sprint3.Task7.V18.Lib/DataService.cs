@@ -11,7 +11,7 @@ namespace Tyuiu.HaevGS.Sprint3.Task7.V18.Lib
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (Math.Sin(x) + 1 == 0) a[i] = 0;
-                else a[i] = Math.Round(2 * x - 4 + ((2 * x - 1) / (Math.Sin(x) + 1)), 2);
+                else a[i] = Math.Round((2 * x - 3) / (Math.Cos(x) + 5), 2);
                 i++;
             }
             return a;
